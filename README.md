@@ -64,4 +64,4 @@
 
 # Credits:
 
-- [Team MD C22-PS094 at Capstone Project Bangkit 2022](https://github.com/DrMuzi) (https://github.com/HighkalW)
+- Team MD C22-PS094 at Capstone Project -- Bangkit 2022 (https://github.com/DrMuzi) (https://github.com/HighkalW)
