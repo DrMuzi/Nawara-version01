@@ -11,16 +11,15 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="18" />
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name_chatx"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/ic_launcher_nawara"
+        android:label="Nawara Apps"
+        android:roundIcon="@mipmap/ic_launcher_nawara_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ChatX"
+        android:theme="@style/Theme.Nawara"
         tools:replace="android:label">
         <activity
             android:name=".CommentsActivity"

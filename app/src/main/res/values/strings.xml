@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name_chatx">Nawara Apps</string>
+    <string name="app_name">Nawara Apps</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="password">Password</string>
@@ -27,4 +27,9 @@
     <string name="tell_us_about_yourself">Tell us about yourself</string>
     <string name="logout">Logout</string>
     <string name="save">Save</string>
+    <string name="title_setting">title setting</string>
+    <string name="title_feed">title feed</string>
+    <string name="title_search">title search</string>
+    <string name="title_chatroom">title chatroom</string>
+    <string name="title_profile">title profile</string>
 </resources>

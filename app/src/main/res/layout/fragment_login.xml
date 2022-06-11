@@ -9,10 +9,10 @@
 
     <ImageView
         android:id="@+id/logo_imageView"
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:layout_marginTop="80dp"
-        android:src="@drawable/chatx_logo"
+        android:src="@drawable/nawara_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -66,7 +66,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
-        android:backgroundTint="@color/emerald"
+        android:backgroundTint="@color/green_100"
         android:hint="@string/login"
         android:padding="16dp"
         android:textColorHint="@color/white"

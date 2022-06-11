@@ -11,11 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/comment_background"
-        android:backgroundTint="@color/green"
+        android:backgroundTint="@color/nawara_05"
         android:padding="24dp"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Chatrooms Name" />
+        tools:text="Chatrooms Name"
+        android:textColor="@color/black"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
