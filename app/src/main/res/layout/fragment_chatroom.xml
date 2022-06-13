@@ -23,6 +23,7 @@
         android:layout_margin="32dp"
         android:contentDescription="@string/floating_action_button_chatrooms"
         android:src="@drawable/add_icon"
+        android:backgroundTint="@color/green"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

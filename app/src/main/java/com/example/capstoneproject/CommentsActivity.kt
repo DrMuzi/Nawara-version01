@@ -1,7 +1,9 @@
 package com.example.capstoneproject
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.capstoneproject.adapters.CommentsAdapter
@@ -10,6 +12,10 @@ import com.example.capstoneproject.models.Comment
 import com.example.capstoneproject.util.UserUtil
 import com.firebase.ui.firestore.FirestoreRecyclerOptions
 import com.google.firebase.firestore.FirebaseFirestore
+import com.squareup.okhttp.ResponseBody
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class CommentsActivity : AppCompatActivity() {
 
@@ -66,4 +72,8 @@ class CommentsActivity : AppCompatActivity() {
         super.onStop()
         commentsAdapter?.stopListening()
     }
+
+
+
+
 }

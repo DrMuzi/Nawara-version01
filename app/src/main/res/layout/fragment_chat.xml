@@ -23,7 +23,7 @@
         android:layout_height="56dp"
         android:layout_margin="16dp"
         android:background="@drawable/comment_background"
-        android:backgroundTint="@color/emerald"
+        android:backgroundTint="@color/nawara_04"
         android:gravity="start"
         android:hint="@string/enter_message"
         android:padding="16dp"

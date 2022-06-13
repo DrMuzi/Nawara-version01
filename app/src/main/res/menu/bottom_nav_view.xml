@@ -12,7 +12,7 @@
     <item
         android:id="@+id/chatroom_item"
         android:icon="@drawable/chat_icon"
-        android:title="@string/chatrooms" />
+        android:title="@string/consultation" />
     <item
         android:id="@+id/profile_item"
         android:icon="@drawable/person_icon"
