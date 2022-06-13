@@ -22,6 +22,22 @@
         android:theme="@style/Theme.Nawara"
         tools:replace="android:label">
         <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            tools:node="merge">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OnBoardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".CommentsActivity"
             android:exported="true" />
         <activity
@@ -30,15 +46,7 @@
         <activity
             android:name=".auth.AuthenticationActivity"
             android:exported="true" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

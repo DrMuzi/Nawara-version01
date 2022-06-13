@@ -16,9 +16,12 @@
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/drawable/ic_chat_clicked.xml" value="0.1085" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/drawable/ic_phone_emergency.xml" value="0.137" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/drawable/ic_profile_clicked.xml" value="0.1085" />
+        <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout-night/activity_splashscreen.xml" value="0.21" />
+        <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout-night/item_post.xml" value="0.21" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/activity_comments.xml" value="0.11197916666666667" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/activity_create_post.xml" value="0.25" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/activity_splashscreen.xml" value="0.121875" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/fragment_chat.xml" value="0.15364583333333334" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/fragment_chatroom.xml" value="0.18" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/fragment_feed.xml" value="0.33" />
@@ -28,6 +31,7 @@
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/fragment_search.xml" value="0.11197916666666667" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/item_chat_self.xml" value="0.10326086956521739" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/item_chatroom.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/item_post.xml" value="0.121875" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/layout/item_user.xml" value="0.18" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/menu/bottom_nav_view.xml" value="0.16018518518518518" />
         <entry key="..\:/Users/User/Downloads/Nawara-version01/app/src/main/res/menu/search_menu.xml" value="0.13020833333333334" />
