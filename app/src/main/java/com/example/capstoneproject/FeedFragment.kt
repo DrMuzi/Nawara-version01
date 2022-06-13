@@ -6,7 +6,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.OnBackPressedCallback
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.capstoneproject.adapters.FeedAdapter
@@ -38,10 +37,16 @@ class FeedFragment : Fragment() {
             startActivity(Intent(context, CreatePostActivity::class.java))
         }
 
+        binding.emergency.setOnClickListener {
+            startActivity(Intent(context, CallEmergencyActivity::class.java))
+        }
+
         recyclerView = binding.feedRecyclerView
 
         setUpRecyclerView()
     }
+
+
 
     private fun setUpRecyclerView() {
         val firestore = FirebaseFirestore.getInstance()
@@ -76,5 +81,10 @@ class FeedFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+    companion object {
+        const val TAG = "FeedFragment"
+    }
+
 
 }
